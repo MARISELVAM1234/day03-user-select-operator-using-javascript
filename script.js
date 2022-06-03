@@ -1,7 +1,7 @@
 let a = parseInt(prompt("Enter the first number"));
 let b = parseInt(prompt("Enter the second number"));
 let c = prompt("enter your operator in add sub multi divi");
-
+let d;
 console.log("input a", a);
 console.log("input b", b);
 // console.log("input c", c);
@@ -11,7 +11,7 @@ if (c == "add") {
 }
 else if (c == "sub") {
     d = a - b
-    console.log("Substration of a&b is", d)
+    console.log("Subtration of a&b is", d)
 }
 else if (c == "multi") {
     d = a * b
@@ -22,7 +22,6 @@ else if (c == "divi") {
     console.log("Division of a&b is", d)
 }
 else {
-    var end;
-    console.log(end)
+    console.log("invalied comment"  )
 }
 
